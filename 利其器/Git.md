@@ -6,11 +6,32 @@
 #### 在文件目录下初始化本地仓库（当前文件夹就是一个本地Repo）
 >git init
 
+添加提交内容
+> git add
+
+将内容记录提交至本地仓库
+>git commit -m "说明"
+
+
+#### 关联远程github
+生成本地sshkey
+>ssh-keygen -t -rsa -C "likakayang@yeah.net"
+
+将公钥id_rsa.pub复制粘贴到github
 
 #### 远程仓库同步（和github仓库同步）
+>git remote add origin git@github.com:likakayang/myNote.git
 
+删除远程仓库地址
+>git remote rm origin
 
+同步本地到远程仓库
+>git push -u origin master
 
+后续同步
+>git push origin master
+
+---
 
 ### 为所有的本地仓库配置用户信息
 
