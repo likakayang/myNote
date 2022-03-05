@@ -1,0 +1,1 @@
+上层由Java语言封装，并且作为API提供给Android应用开发，基底层使用Webkit核心库进行网页排版。Java层和Webkit库之间通过JNI和Bridge互相调用。
