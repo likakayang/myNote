@@ -6,12 +6,12 @@
 #### 在文件目录下初始化本地仓库（当前文件夹就是一个本地Repo）
 >git init
 
-添加提交内容
+添加要提交的内容
 > git add
 
 将内容记录提交至本地仓库
 >git commit -m "说明"
-
+---
 
 #### 关联远程github
 生成本地sshkey
@@ -32,7 +32,7 @@
 >git push origin master
 
 ---
-
+## git相关指令
 ### 为所有的本地仓库配置用户信息
 
 > $git config --global user.name "[name]"
