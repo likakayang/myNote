@@ -1,5 +1,3 @@
-Navigation
-
+NavigationView  
     extends ScrimInsetsFrameLayout
-
-            extends FrameLayout
+        extends FrameLayout
