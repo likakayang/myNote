@@ -54,7 +54,7 @@ adb shell pm list features (如android.hardware.nfc)
 9、查看内核
 
 ```shell
-adb shell getprop ro.product.api
+adb shell getprop ro.product.cpu.api
 ```
 
 10、查看SDk版本
