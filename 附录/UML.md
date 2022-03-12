@@ -8,7 +8,7 @@ Unified Modeling Language
 
 ####  Class Diagram  
 
- 
+标识符  
 "+"    Public  
 "-"    Private  
 "#"    Prtected  
@@ -20,19 +20,6 @@ Unified Modeling Language
 
 
 
-泛化（Generalization）——继承父类——三角箭头实线
-
-实现（Realization）——继承接口——三角箭头虚线
-
-关联（Association）——持有成员变量
-
-聚合（Aggregation）
-
-组合（Coomposition）——持有成员变量
-
-依赖（Dependency）——局部变量，方法的参数或对静态方法的调用
-
-
-
+#### 关系强弱
 泛化-=实现>组合>聚合>关联>依赖
 
