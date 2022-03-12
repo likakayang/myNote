@@ -104,3 +104,9 @@ drawable中的图片命名
 1、LayoutInflater inflater=getLayoutInflater();
 2、LayoutInflater inflater=LayoutInflater.from(this);
 3、LayoutInflater inflater=(LayoutInflater)Context.getSystemService(LAYOUT_INFLATER_SERVICE);
+
+
+
+#### 疯狂android讲义
+Activity和Sevice都继承了Context，所以Activity和Service都可以直接作为Context使用。  
+
