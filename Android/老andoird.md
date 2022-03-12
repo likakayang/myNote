@@ -42,6 +42,12 @@ bindService()
 
 
 
+ANR
+1、点击按键或者触摸屏幕等输入时间在5s内没有响应。
+2、BoradcastReceiver事件（onReceive()方法中）在规定的时间内没有处理完（前台广播为10s，后台广播为60s）。
+3、Service在规定的时间内没有完成启动（前台service为20s，后台service为200s）。
+4、ContentProvider的publish在10s内没有完成。
+
 
 
 
