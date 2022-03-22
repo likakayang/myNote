@@ -12,6 +12,7 @@
 
 #### 具体设计模式  
 [创建型模式]()  
+1、[抽象工厂Abstract Factory](创建型模式/Abstract%20Factory.md)
 [结构型模式]()  
 [行为型模式]()  
 
