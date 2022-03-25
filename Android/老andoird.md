@@ -1,3 +1,13 @@
+各个类型APP概述  
+1、游戏类。有自己的一套在线更新流程。 lua之类的脚本。   
+2、手机助手、手机卫士。对Service、Receiver、ContentProvider使用较多，四大组件都要插件化。  
+3、音乐、视频、直播。除了Activity对Service和Receiver依赖较强。  
+4、电商类、社交类、新闻类、阅读类。基本都是Activity。
+
+
+
+
+
 两个拖拽API  
 1、ViewDragHelper    
 2、onDragListener  
