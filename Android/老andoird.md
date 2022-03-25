@@ -6,6 +6,22 @@ Androidx中NestedScrollView，同向滑动，子View优先。
 
 
 
+数据存储  
+安全  
+SQLite->SharePreference->ContentProvider->File I/O->网络存储  
+效率  
+SQLite->SharePreference=FIle I/O->ContentProvider->网络存储  
+量级  
+网络存储->File I/O->ContentProvider=SQLite->SharePreference  
+
+权限  
+android基于linux内核，而linux权限访问由进程和文件两部分组成。  
+1、android所有者权限，相当于Android ROM开发权限。  
+2、android root权限，相当于linux系统中最高用户权限。  
+3、android应用程序权限，在AndroidManifest中声明，由用户授权使用。
+
+
+
 application  
 应用程序框架层  
 函数库（C和运行库）  
