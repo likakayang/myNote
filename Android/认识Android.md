@@ -3,6 +3,25 @@ Android系统开机后，通过解析init.rc文件会启动init进程（init进�
 
 
 
+硬件抽象层 HAL （Android Hardware Abstraction Layer）  
+HAL的实现需要通过JNI  
+```
+.so  
+app->app_manager->service(java)->service(jni)->HAL
+```
+
+
+
+
+
+
+屏幕适配  
+1、最小宽度匹配  
+2、今日头条屏幕适配  
+
+占位Loading加载库--骨架层  
+
+
 
 #### 重要概念
 
