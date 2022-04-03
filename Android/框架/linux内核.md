@@ -52,3 +52,14 @@ Heap View
 
 
 
+支持三种cpu类型  
+1、x86  
+2、arm  
+3、mips  
+
+
+通常生成多种类型的so，分门别类放在jniLibs目录下。   
+
+加载so两种方法，最终都会通过系统底层的dlopen来打开：  
+1、System.loadLibrary("")  
+2、System.load("完整路径")
