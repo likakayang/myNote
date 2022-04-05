@@ -62,4 +62,6 @@ Heap View
 
 加载so两种方法，最终都会通过系统底层的dlopen来打开：  
 1、System.loadLibrary("")  
-2、System.load("完整路径")
+2、System.load("完整路径")  
+
+
