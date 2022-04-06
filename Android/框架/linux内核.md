@@ -65,3 +65,4 @@ Heap View
 2、System.load("完整路径")  
 
 
+android系统是基于Binder通信的CS架构
