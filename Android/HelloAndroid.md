@@ -1,3 +1,12 @@
+Android是一款便携移动的终端系统，基于linux2.6内核构建。如下是其框架图  
+
+
+
+
+
+
+
+
 Android系统开机后，通过解析init.rc文件会启动init进程（init进程是伴随着linux系统开机到关机的一个守护进程），然后启动Zygote进程和SurfaceFlinger（启动开机动画bootanimation）等，Zygote启动SystemServer，启动AMS，WMS，PMS等，启动Launcher然后请求SurfaceFlinger退出开机动画。进入Android。
 
 
