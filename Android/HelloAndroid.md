@@ -1,4 +1,5 @@
-Android是一款便携移动的终端系统，基于linux2.6内核构建。如下是其框架图  
+Android是一款便携移动的终端系统，基于linux2.6内核构建。如下是其框架图
+
 
 
 
@@ -12,7 +13,7 @@ Android系统开机后，通过解析init.rc文件会启动init进程（init进�
 
 
 
-硬件抽象层 HAL （Android Hardware Abstraction Layer）  
+硬件抽象层 HAL （Android Hardware Abstraction Layer） 
 HAL的实现需要通过JNI  
 ```
 .so  
