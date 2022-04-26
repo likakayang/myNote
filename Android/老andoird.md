@@ -11,6 +11,23 @@ handler是android中更新UI、处理消息的一个机制。
 
 handler获取当前现成的looper对象，looper从MessageQueue中取出Message，然后handler对这些message进行分发和处理。
 
+
+跨进程通信  
+1、Intent访问其他Activity
+```java
+Intent intent=new Intent(this,***.class);
+startActivity(intent,);
+```
+
+2、Content Provider
+
+
+3、Broadcast
+
+4、AIDL
+
+
+
 两个拖拽API  
 1、ViewDragHelper    
 2、onDragListener  
