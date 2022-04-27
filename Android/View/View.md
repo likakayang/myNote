@@ -5,9 +5,9 @@ View概述
 -AccessibilityEventSource  
 
 
-### 自定义View  
-## 绘制(Drawable.Callback)和事件监听(KeyEvent.Callback)
-```
+## 自定义View
+### 绘制(Drawable.Callback)和事件监听(KeyEvent.Callback)
+```java
 View implements Drawable.Callback,KeyEvent.Callback,AccessibilityEventSource
 ```
 
