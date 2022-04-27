@@ -1,5 +1,4 @@
-Android是一款便携移动的终端系统，基于linux2.6内核构建。如下是其框架图
-
+Android is a portable and movable terminal system,is based on linux2.6.Here is structure diagram:
 
 
 
