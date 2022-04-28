@@ -1,7 +1,12 @@
-Android is a portable and movable terminal system,is based on linux2.6.Here is structure diagram:
+Android is a portable and movable terminal system,is based on linux2.6.
+Android system architecture contains the following components:
 
 
-
+#### Application framework
+#### Binder IPC
+#### System services
+#### Hardware abstractub layer
+#### Linux kernel
 
 
 
