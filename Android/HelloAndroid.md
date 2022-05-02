@@ -1,12 +1,12 @@
-Android is a portable and movable terminal system,is based on linux2.6.
+Android is a portable and movable terminal system,is a open source software protocol stack based on linux2.6.
 Android system architecture contains the following components:
+![Android Arc](../res/Android_HelloAndroid_AndroidArc.png)
 
-
-#### Application framework
+#### Application Framework
 #### Binder IPC
-#### System services
-#### Hardware abstractub layer
-#### Linux kernel
+#### System Services(Native C/C++ Libraries and Android Runtime)
+#### Hardware Abstractub Layer
+#### Linux Kernel
 
 
 
